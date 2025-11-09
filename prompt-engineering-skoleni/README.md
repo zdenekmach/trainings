@@ -25,7 +25,7 @@ Tento repozitář obsahuje kompletní materiály pro školení o tvorbě prompt�
 | **[02-progressive-prompting-guide.md](./02-progressive-prompting-guide.md)** | 📈 Progresivní průvodce (Level 1→5) | 45-60 min čtení |
 | **[03-model-specific-recommendations.md](./03-model-specific-recommendations.md)** | 🤖 Srovnání modelů + specifická doporučení | 30-40 min čtení |
 | **[04-practical-examples.md](./04-practical-examples.md)** | 💼 5 real-world příkladů použití | 40-50 min čtení + cvičení |
-| **[05-custom-assistants-guide.md](./05-custom-assistants-guide.md)** | 🔧 Od promptů k AI asistentům (Custom GPT, Projects, Gems) | 50-60 min čtení |
+| **[06-custom-assistants-guide.md](./06-custom-assistants-guide.md)** | 🔧 Od promptů k AI asistentům (Custom GPT, Projects, Gems) | 50-60 min čtení |
 
 ---
 
@@ -135,7 +135,7 @@ Pro lidi kteří chtějí být firemní "prompt engineering expert":
 - Experimentuj s pokročilými technikami (chain-of-thought, few-shot learning)
 
 **Den 5:** Vytvoř interní materiály a AI asistenty
-- Přečti [05-custom-assistants-guide.md](./05-custom-assistants-guide.md) (60 min)
+- Přečti [06-custom-assistants-guide.md](./06-custom-assistants-guide.md) (60 min)
 - Vytvoř custom GPT nebo Claude Project pro opakující se úkoly
 - Nastav Knowledge Base a instructions
 - Napřiš interní guide pro tvůj tým
@@ -243,7 +243,7 @@ Pro lidi kteří chtějí být firemní "prompt engineering expert":
 
 ---
 
-### 05-custom-assistants-guide.md
+### 06-custom-assistants-guide.md
 **Od promptů k AI asistentům - Custom GPT, Projects, Gems**
 
 **Obsahuje:**
@@ -333,7 +333,7 @@ Migruj opakující se úkol z promptu na AI asistenta.
 
 **Kroky:**
 1. Vyber úkol který děláš 5x+ měsíčně (např. weekly status reports, requirements analysis)
-2. Přečti relevantní sekci z `05-custom-assistants-guide.md`
+2. Přečti relevantní sekci z `06-custom-assistants-guide.md`
 3. Rozhodní: Custom GPT (ChatGPT) nebo Project (Claude)?
 4. Vytvoř asistenta:
    - Napiš Instructions (system prompt)
