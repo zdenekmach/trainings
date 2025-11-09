@@ -26,6 +26,8 @@ Tento repozitář obsahuje kompletní materiály pro školení o tvorbě prompt�
 | **[03-model-specific-recommendations.md](./03-model-specific-recommendations.md)** | 🤖 Srovnání modelů + specifická doporučení | 30-40 min čtení |
 | **[04-practical-examples.md](./04-practical-examples.md)** | 💼 5 real-world příkladů použití | 40-50 min čtení + cvičení |
 | **[06-custom-assistants-guide.md](./06-custom-assistants-guide.md)** | 🔧 Od promptů k AI asistentům (Custom GPT, Projects, Gems) | 50-60 min čtení |
+| **[05-multi-step-research-flow.md](./05-multi-step-research-flow.md)** | 🔬 Vícekrokové research & analytical flow | 30-45 min čtení |
+| **[05-multi-step-research-flow-cheatsheet.md](./05-multi-step-research-flow-cheatsheet.md)** | ⚡ Research flow - cheat sheet | 10 min čtení |
 
 ---
 
@@ -72,12 +74,16 @@ Pro lidi kteří potřebují rychle začít používat lepší prompty:
    - Vyber 2-3 příklady relevantní pro tvou práci
    - Vyzkoušej na vlastním use case
 
-4. **Praktické cvičení** (30 min)
+4. **Bonus: [05-multi-step-research-flow-cheatsheet.md](./05-multi-step-research-flow-cheatsheet.md)** (10 min)
+   - Pokud děláš research/analytické úkoly
+   - Quick reference pro multi-tool workflows
+
+5. **Praktické cvičení** (30 min)
    - Vezmi si reálný úkol
    - Vytvoř prompt podle guide
    - Testuj a iteruj
 
-**Total: ~2.5 hodiny**
+**Total: ~2.5-3 hodiny**
 
 ---
 
@@ -111,14 +117,19 @@ Pro lidi kteří chtějí hloubkové pochopení a stát se "prompt pros":
    - Přečti všech 5 příkladů
    - Pro každý: pochop PROČ je použitý daný level
 
-6. **Praktické projekty** (60-90 min)
+6. **Bonus: [05-multi-step-research-flow.md](./05-multi-step-research-flow.md)** (45 min)
+   - Pokud děláš složité analytické nebo research projekty
+   - Naučíš se orchestrovat různé AI nástroje
+   - Přeskoč pokud neděláš research
+
+7. **Praktické projekty** (60-90 min)
    - Vytvoř 3 prompty pro své real use cases:
      - 1× analytický úkol (Level 3-4)
      - 1× kreativní úkol (Level 2-3)
      - 1× strategický úkol (Level 4-5)
    - Testuj, iteruj, optimalizuj
 
-**Total: ~7 hodin (1 pracovní den)**
+**Total: ~7-8 hodin (1 pracovní den)**
 
 ---
 
@@ -266,6 +277,43 @@ Pro lidi kteří chtějí být firemní "prompt engineering expert":
 - Chceš optimalizovat náklady (context caching)
 
 **Tip:** Nejdřív si ověř prompt (iteruj dokud není dobrý), pak migruj na asistenta.
+### 05-multi-step-research-flow.md
+**Průvodce vícekrokovými analytickými a research projekty**
+
+**Obsahuje:**
+- 🔄 5-fázové research flow (Define → Research → Validate → Synthesize → Create)
+- 🛠️ Tool selection matrix (který AI nástroj v které fázi)
+- 🤖 Orchestrace nástrojů: Claude, ChatGPT, Perplexity, Gemini, NotebookLM, MS Copilot
+- 💡 Strategie proti halucinacím a validace zdrojů
+- 📊 Příklady workflow pro market research, competitive analysis
+- 🎯 Best practices pro syntézu poznatků
+
+**Kdy použít:**
+- Složité analytické projekty (5+ hodin manuální práce)
+- Potřebuješ syntézu z více zdrojů
+- Output musí být důvěryhodný a obhajitelný
+- Research pro strategická rozhodnutí
+
+**Tip:** Pro první projekt vezmi 30-45 min na přečtení, pak aplikuj na vlastní use case.
+
+---
+
+### 05-multi-step-research-flow-cheatsheet.md
+**One-page cheat sheet pro research flow**
+
+**Obsahuje:**
+- ⚡ Quick reference pro 5 fází
+- 🛠️ Tool selection (stručný přehled)
+- 💡 Do's and Don'ts
+- ✅ Checklist před začátkem projektu
+- 🆘 Quick troubleshooting
+
+**Kdy použít:**
+- Potřebuješ rychlou připomínku workflow
+- Začínáš nový research projekt
+- Chceš vytisknout jako referenci
+
+**Tip:** Vytiskni a měj u počítače při research projektech!
 
 ---
 
