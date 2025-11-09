@@ -25,6 +25,7 @@ Tento repozitář obsahuje kompletní materiály pro školení o tvorbě prompt�
 | **[02-progressive-prompting-guide.md](./02-progressive-prompting-guide.md)** | 📈 Progresivní průvodce (Level 1→5) | 45-60 min čtení |
 | **[03-model-specific-recommendations.md](./03-model-specific-recommendations.md)** | 🤖 Srovnání modelů + specifická doporučení | 30-40 min čtení |
 | **[04-practical-examples.md](./04-practical-examples.md)** | 💼 5 real-world příkladů použití | 40-50 min čtení + cvičení |
+| **[06-custom-assistants-guide.md](./06-custom-assistants-guide.md)** | 🔧 Od promptů k AI asistentům (Custom GPT, Projects, Gems) | 50-60 min čtení |
 | **[05-multi-step-research-flow.md](./05-multi-step-research-flow.md)** | 🔬 Vícekrokové research & analytical flow | 30-45 min čtení |
 | **[05-multi-step-research-flow-cheatsheet.md](./05-multi-step-research-flow-cheatsheet.md)** | ⚡ Research flow - cheat sheet | 10 min čtení |
 
@@ -50,6 +51,8 @@ Tento repozitář obsahuje kompletní materiály pro školení o tvorbě prompt�
 - 🎓 Specifika jednotlivých AI modelů (Claude, GPT, Gemini, Perplexity, Copilot)
 - 🎓 Best practices a časté chyby
 - 🎓 Praktické aplikace na real-world use cases
+- 🎓 Kdy a jak přejít z promptů na Custom GPT/Projects/Gems
+- 🎓 Knowledge Base strategie a context window optimalizace
 
 ---
 
@@ -142,8 +145,10 @@ Pro lidi kteří chtějí být firemní "prompt engineering expert":
 - Vytvoř si "model selection matrix" pro tvé use cases
 - Experimentuj s pokročilými technikami (chain-of-thought, few-shot learning)
 
-**Den 5:** Vytvoř interní materiály
-- Vytvoř custom GPT nebo Claude Skill pro opakující se úkoly
+**Den 5:** Vytvoř interní materiály a AI asistenty
+- Přečti [06-custom-assistants-guide.md](./06-custom-assistants-guide.md) (60 min)
+- Vytvoř custom GPT nebo Claude Project pro opakující se úkoly
+- Nastav Knowledge Base a instructions
 - Napřiš interní guide pro tvůj tým
 - Vytvoř template library (soubor fungujících promptů pro časté úkoly)
 
@@ -249,6 +254,29 @@ Pro lidi kteří chtějí být firemní "prompt engineering expert":
 
 ---
 
+### 06-custom-assistants-guide.md
+**Od promptů k AI asistentům - Custom GPT, Projects, Gems**
+
+**Obsahuje:**
+- 🎯 Kdy přejít z promptu na asistenta (decision framework)
+- 📚 Knowledge Base deep dive (KB vs příloha, context window rozdíly)
+- 📝 Instrukce vs běžné prompty (struktura, workflow možnosti)
+- 🤖 Model-specific implementace:
+  - Custom GPT (ChatGPT)
+  - Projects (Claude)
+  - Gems (Gemini)
+  - Perplexity & MS Copilot
+- ✅ Best practices pro tvorbu asistentů
+- 💼 3 praktické příklady migrace (z promptu na asistenta)
+- 🔧 Troubleshooting common issues
+
+**Kdy použít:**
+- Máš úkol který děláš 3x+ měsíčně
+- Potřebuješ velký fixní kontext (company guidelines, templates)
+- Tým potřebuje konzistentní přístup
+- Chceš optimalizovat náklady (context caching)
+
+**Tip:** Nejdřív si ověř prompt (iteruj dokud není dobrý), pak migruj na asistenta.
 ### 05-multi-step-research-flow.md
 **Průvodce vícekrokovými analytickými a research projekty**
 
@@ -343,6 +371,30 @@ Vytvoř si template pro opakující se úkol z tvé práce.
 6. Ulož jako template pro budoucnost
 
 **Cíl:** Mít reusable template který ušetří čas.
+
+---
+
+### Cvičení 4: Vytvoření Custom GPT nebo Claude Project (60 min)
+
+**Úkol:**
+Migruj opakující se úkol z promptu na AI asistenta.
+
+**Kroky:**
+1. Vyber úkol který děláš 5x+ měsíčně (např. weekly status reports, requirements analysis)
+2. Přečti relevantní sekci z `06-custom-assistants-guide.md`
+3. Rozhodní: Custom GPT (ChatGPT) nebo Project (Claude)?
+4. Vytvoř asistenta:
+   - Napiš Instructions (system prompt)
+   - Připrav Knowledge Base (pokud potřeba)
+   - Nastav conversation starters
+5. Testuj na 3 různých instancích úkolu
+6. Iteruj instructions podle výsledků
+7. Sdílej s týmem (nebo si ulož pro vlastní použití)
+
+**Cíl:**
+- Prakticky si vyzkoušet vytvoření AI asistenta
+- Ušetřit čas na opakujících se úkolech
+- Zajistit konzistentní kvalitu
 
 ---
 
